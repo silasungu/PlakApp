@@ -12,7 +12,7 @@ namespace PlakApp.DataAccess
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=.;database=PlakAppDB;uid=sa;pwd=123; TrustServerCertificate = True");
+            optionsBuilder.UseSqlServer("server=.;database=PlakAppDB;uid=**;pwd=***; TrustServerCertificate = True");
             base.OnConfiguring(optionsBuilder);
         }
 
